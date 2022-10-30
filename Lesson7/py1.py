@@ -1,7 +1,5 @@
-a = float(input())
-b = float(input())
-c = float(input())
+a, b, c = int(input()), int(input()), int(input())
 if a + b > c and a + c > b and b + c > a:
-    print("YES")
+    print('YES')
 else:
-    print("NO")
+    print('NO')
